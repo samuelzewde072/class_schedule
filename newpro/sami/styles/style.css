@@ -1,0 +1,136 @@
+/* CSS for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* CSS for the tables */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* CSS for the buttons */
+  .btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-success {
+    background-color: #4CAF50;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .btn-danger {
+    background-color: #f44336;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* CSS for the links */
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+  
+  
+  /* CSS for headings */
+  h1, h2, h3 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  /* CSS for the main container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* CSS for table rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* CSS for table cells */
+  td {
+    font-size: 16px;
+  }
+  
+  /* CSS for class and course tables */
+  table.borderless {
+    border: none;
+  }
+  
+  table.borderless th,
+  table.borderless td {
+    border: none;
+  }
+  
+  /* CSS for buttons in the class and course tables */
+  table.borderless .btn {
+    background-color: transparent;
+    color: #4CAF50;
+    padding: 0;
+  }
+  
+  table.borderless .btn:hover {
+    background-color: transparent;
+    color: #45a049;
+    text-decoration: underline;
+  }
+  
+  /* CSS for text alignment */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  /* CSS for rounded corners */
+  .rounded {
+    border-radius: 4px;
+  }
